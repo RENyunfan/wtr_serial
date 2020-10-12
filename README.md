@@ -40,7 +40,7 @@ source devel/setup.bash
 rosrun wtr_serial main
 ```
 
-Then you just need to publish a message of type`geometry_msgs/Twist` to the topic `/wtr/chassis/twist`  to control the chassis. See the example in [./App/controller.cpp](./App/controller.cpp)
+Then you just need to publish a message of type`geometry_msgs/Twist` to the topic `/wtr/chassis/twist`  with a recommended rate of `100Hz` to control the chassis. See the example in [./wtr_serial/App/controller.cpp](./wtr_serial/App/controller.cpp)
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
