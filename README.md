@@ -4,8 +4,6 @@
 >
 > renyunfan@outlook.com
 
-$\color{red}{Attention!}$
-
 ## Dependencies
 
 ```bash
@@ -44,7 +42,11 @@ rosrun wtr_serial main
 
 Then you just need to publish a message of type`geometry_msgs/Twist` to the topic `/wtr/chassis/twist`  to control the chassis. See the example in [./App/controller.cpp](./App/controller.cpp)
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 <font color=red size=24>Attention:Please set the speed in a relative low value, try from 0.1</font>
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ```cpp
 #include <ros/ros.h>
