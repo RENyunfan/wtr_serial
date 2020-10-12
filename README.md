@@ -4,6 +4,8 @@
 >
 > renyunfan@outlook.com
 
+GIVE ME A STAR ⭐️⭐️⭐️⭐️⭐️⭐️⭐️ NOW!!!
+
 ## Dependencies
 
 ```bash
@@ -74,3 +76,6 @@ int main(int argc, char** argv)
 
 ```
 
+## Work with joystick
+
+See more in [joy2twist](https://github.com/RENyunfan/joy2twist)
